@@ -1,0 +1,78 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #222;
+}
+
+header {
+  background-color: #b30000;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  border-radius: 50%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+.main-image, .beneficios-img, .tarjeta {
+  max-width: 80%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.lista-presentaciones {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+.lista-presentaciones li {
+  background-color: #ffd6d6;
+  margin: 5px auto;
+  width: fit-content;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+
+.redes img {
+  width: 40px;
+  margin: 0 10px;
+  transition: transform 0.2s;
+}
+
+.redes img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #b30000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
